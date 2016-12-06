@@ -1,0 +1,11 @@
+<h1>Surveyor</h1>
+<p>Tell me #allthethings</p>
+
+<%= link_to "Make a Survey", new_survey_path %>
+
+<br>
+<% @surveys.each do |survey| %>
+
+  <%= link_to survey.name, survey_path(survey.id) %> <br>
+
+<% end %>

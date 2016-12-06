@@ -1,0 +1,8 @@
+What is the relationship between a survey and its questions?
+  a survey has many questions
+How might you create a survey and also create questions for it?
+  To start a new survey with a single question, @survey.build(question)
+What is the relationship between a multiple choice question and its options?
+  Multiple choice questions have many options
+How do you create a multiple choice questions and also create options for it?
+  @question.build(option)
